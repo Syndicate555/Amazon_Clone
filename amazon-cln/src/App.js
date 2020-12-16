@@ -5,8 +5,9 @@ function App() {
     <div >
       <h1>
         Amazon Clone
-         
      </h1>
+     {/* Header*/}
+     {/* Home*/}
     </div>
   );
 }
