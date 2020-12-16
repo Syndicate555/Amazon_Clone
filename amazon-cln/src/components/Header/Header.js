@@ -16,7 +16,14 @@ function Header() {
       Sign In
      </span>
    </div>
-   <div className = "header_option"></div>
+    <div className="header_option">
+     <span className = "header__optionLineOne">
+      Returns
+     </span>
+     <span className = "header__optionLineTwo">
+       & Orders
+     </span>
+   </div>
    <div className = "header_option"></div>
    </div>
   </div>
