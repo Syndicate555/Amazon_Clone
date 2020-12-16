@@ -8,9 +8,9 @@ function Header() {
     <input type="text" className = "header_searchInput"/>
    </div>
    <div className = 'header_nav'>
-   <div></div>
-   <div></div>
-   <div></div>
+   <div className = "header_option"></div>
+   <div className = "header_option"></div>
+   <div className = "header_option"></div>
    </div>
   </div>
  )
