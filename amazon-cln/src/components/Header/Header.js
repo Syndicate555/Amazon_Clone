@@ -1,9 +1,9 @@
 import React from 'react'
-
+import logo from './assets/logo.png'
 function Header() {
  return (
   <div className= 'header'>
-   <img src="https://www.clipartmax.com/png/middle/462-4625003_where-we-shop-transparent-background-amazon-in-logo-png.png" alt=""/>
+   <img src={logo} alt=""/>
   </div>
  )
 }
