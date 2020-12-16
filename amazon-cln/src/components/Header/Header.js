@@ -7,6 +7,9 @@ function Header() {
    <div className='header_search'>
     <input type="text" className = "header_searchInput"/>
    </div>
+   <div className = 'header_nav'>
+
+   </div>
   </div>
  )
 }
