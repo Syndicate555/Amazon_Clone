@@ -2,8 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div >
+      <h1>
+        Amazon Clone
+         
+     </h1>
     </div>
   );
 }
