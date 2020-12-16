@@ -8,7 +8,14 @@ function Header() {
     <input type="text" className = "header_searchInput"/>
    </div>
    <div className = 'header_nav'>
-   <div className = "header_option"></div>
+    <div className="header_option">
+     <span className = "header__optionLineOne">
+      Hello Guest
+     </span>
+     <span className = "header__optionLineTwo">
+      Sign In
+     </span>
+   </div>
    <div className = "header_option"></div>
    <div className = "header_option"></div>
    </div>
