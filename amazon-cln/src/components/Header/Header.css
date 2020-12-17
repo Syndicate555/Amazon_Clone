@@ -3,7 +3,7 @@
   padding: 0;
 }
 .header {
-  height: 70px;
+  height: 80px;
   display: flex;
   margin-top: 0px;
   align-items: center;
@@ -42,7 +42,7 @@
 }
 
 .header__searchIcon {
-  padding: 5px;
+  padding: 2px;
   height: 30px !important;
   background-color: #cd9042;
   border-top-right-radius: 5px;
