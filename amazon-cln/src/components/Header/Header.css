@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:Arial, Helvetica, sans-serif;
+}
 .header {
   height: 60px;
   display: flex;
@@ -50,7 +50,7 @@
   justify-content: space-evenly;
 }
 .header__optionLineOne {
-  font-size: 10px;
+  font-size: 14px;
 }
 .header__optionLineTwo {
   font-size: 13;

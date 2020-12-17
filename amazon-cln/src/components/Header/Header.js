@@ -9,7 +9,10 @@ function Header() {
     <input type="text" className="header__searchInput" />
     <SearchIcon className = "header__searchIcon"/>
    </div>
-   <div className = 'header_nav'>
+   <div className='header_nav'>
+    <div className = "header_country">
+     <h4>Canada</h4>
+    </div>
     <div className="header_option">
      <span className = "header__optionLineOne">
       Hello Guest
