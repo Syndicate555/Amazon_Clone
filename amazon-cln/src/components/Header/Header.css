@@ -3,7 +3,7 @@
   padding: 0;
 }
 .header {
-  height: 60px;
+  height: 70px;
   display: flex;
   margin-top: 0px;
   align-items: center;
@@ -13,17 +13,18 @@
   z-index: 100;
 }
 .header__logo {
-  width: 100px;
+  width: 135px;
   object-fit: contain;
   margin: 0 20px;
-  margin-top: 18px;
+  margin-top: 20px;
 }
 .header__location {
   width: 150px;
   object-fit: contain;
-  margin: 0 10px;
+
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 10px;
 }
 .header__search {
   display: flex;
