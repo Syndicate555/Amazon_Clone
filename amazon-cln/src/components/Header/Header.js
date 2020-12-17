@@ -11,7 +11,7 @@ function Header() {
    </div>
    <div className='header_nav'>
     <div className = "header_country">
-     <h4>Canada</h4>
+     
     </div>
     <div className="header_option">
      <span className = "header__optionLineOne">
