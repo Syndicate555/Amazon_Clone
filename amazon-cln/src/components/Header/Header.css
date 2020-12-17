@@ -18,6 +18,13 @@
   margin: 0 20px;
   margin-top: 18px;
 }
+.header__location {
+  width: 150px;
+  object-fit: contain;
+  margin: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .header__search {
   display: flex;
   flex: 1;
@@ -25,16 +32,20 @@
   border-radius: 24px;
 }
 .header__searchInput {
-  height: 12px;
+  height: 30px;
   padding: 10px;
   border: none;
   width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .header__searchIcon {
   padding: 5px;
-  height: 22px !important;
+  height: 30px !important;
   background-color: #cd9042;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .header_option {
