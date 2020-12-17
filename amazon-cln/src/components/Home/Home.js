@@ -24,17 +24,18 @@ function Home() {
      {/* Product */}
      {/* Product */}
 
-    </div>
-     {/* Product */}
+    </div >
+    <div className="home__row">
      <Product/>
      <Product/>
      <Product/>
      <Product/>
-     {/* Product */}
      {/* Product */}
      {/* Product */}
      {/* Product */}
 
+    </div >
+     
    </div>
   </div>
  )
