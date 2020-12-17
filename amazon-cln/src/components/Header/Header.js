@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown'
 import Location from './assets/location.jpg'
-
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
 
 function Header() {
  return (
@@ -54,7 +54,11 @@ function Header() {
      <span className = "header__optionLineTwo">
       Prime
      </span>
-   </div>
+    </div>
+    <div className= 'header_optionBasket'>
+     <ShoppingBasketIcon />
+     <span className = "header__optionLineTwo header__basketCount">0</span>
+    </div>
    </div>
   </div>
  )
