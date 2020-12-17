@@ -5,7 +5,7 @@ function Header() {
  return (
   <div className= 'header'>
    <img className = "header__logo" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=""/>
-   <div className='header_search'>
+   <div className='header__search'>
     <input type="text" className="header_searchInput" />
     <SearchIcon className = "header__searchIcon"/>
    </div>
