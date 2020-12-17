@@ -57,7 +57,7 @@ function Header() {
     </div>
     <div className= 'header_optionBasket'>
      <ShoppingBasketIcon />
-     <span className = "header__optionLineTwo header__basketCount">0</span>
+     <span className = "header__optionLineTwo header_basketCount">0</span>
     </div>
    </div>
   </div>

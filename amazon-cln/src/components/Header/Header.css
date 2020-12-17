@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header {
   height: 80px;
@@ -40,7 +41,10 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-
+.header_basketCount {
+  margin-right: 10px;
+  margin-left: 10px;
+}
 .header__searchIcon {
   padding: 2px;
   height: 30px !important;
@@ -54,6 +58,11 @@
   flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
+  color: #ffffff;
+}
+.header_optionBasket {
+  display: flex;
+  align-items: center;
   color: #ffffff;
 }
 
