@@ -18,7 +18,7 @@ function Header() {
     <SearchIcon className = "header__searchIcon"/>
    </div>
    <div className='header_nav'>
-    <div className = "header_country">
+    {/* <div className = "header_country">
      <DropdownButton
       alignRight
       title="Canada"
@@ -30,7 +30,7 @@ function Header() {
               <Dropdown.Item eventKey="option-3">UK</Dropdown.Item>
               
       </DropdownButton>
-    </div>
+    </div> */}
     <div className="header_option">
      <span className = "header__optionLineOne">
       Hello Guest
