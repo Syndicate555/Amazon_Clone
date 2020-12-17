@@ -37,10 +37,15 @@
   background-color: #cd9042;
 }
 
-.header__option {
+.header_option {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
   color: #ffffff;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
 }
