@@ -40,9 +40,14 @@
 .header_option {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: #ffffff;
+}
+
+.header_country {
+  display: flex;
+  flex-direction: column;
 }
 
 .header_nav {
